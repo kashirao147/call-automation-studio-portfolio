@@ -1,0 +1,487 @@
+{
+  "version": 2,
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "header", "key": "host", "value": "www.callautomationstudio.com" }],
+      "destination": "https://callautomationstudio.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "header", "key": "host", "value": "aiautomationstudio.vercel.app" }],
+      "destination": "https://callautomationstudio.com/:path*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "geolocation=(), camera=(), microphone=()" }
+      ]
+    },
+    {
+      "source": "/admin/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }
+      ]
+    },
+    {
+      "source": "/ai-appointment-booking-automation-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-appointment-booking-automation-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-dental-receptionist-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-dental-receptionist-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/virtual-receptionist-perth/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/virtual-receptionist-perth/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/business-process-automation-consulting-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/business-process-automation-consulting-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-phone-answering-for-restaurants-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-phone-answering-for-restaurants-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-voice-agent-vs-ai-receptionist-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-voice-agent-vs-ai-receptionist-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/real-time-voice-ai-latency-security-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/real-time-voice-ai-latency-security-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-voice-agents-customer-support-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-voice-agents-customer-support-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/missed-call-automation-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/missed-call-automation-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-property-management-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-property-management-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-call-recording-transcription-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-call-recording-transcription-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-allied-health-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-allied-health-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-ndis-providers-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-ndis-providers-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-governance-checklist-voice-ai-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-governance-checklist-voice-ai-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-voice-agents-field-service-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-voice-agents-field-service-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-accounting-firms-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-accounting-firms-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-law-firms-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-law-firms-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-mortgage-brokers-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-mortgage-brokers-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-insurance-brokers-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-insurance-brokers-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-veterinary-clinics-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-veterinary-clinics-australia/>; rel=\"canonical\"" }
+      ]
+    },
+    {
+      "source": "/ai-receptionist-solar-installers-australia/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://callautomationstudio.com/ai-receptionist-solar-installers-australia/>; rel=\"canonical\"" }
+      ]
+    }
+  ],
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "**/*.html", "use": "@vercel/static" },
+    { "src": "styles.css", "use": "@vercel/static" },
+    { "src": "seo-pages.css", "use": "@vercel/static" },
+    { "src": "ai-voice-agent-cost-calculator/*.css", "use": "@vercel/static" },
+    { "src": "ai-voice-agent-cost-calculator/*.js", "use": "@vercel/static" },
+    { "src": "ai-receptionist-vs-human-cost-calculator/*.css", "use": "@vercel/static" },
+    { "src": "ai-receptionist-vs-human-cost-calculator/*.js", "use": "@vercel/static" },
+    { "src": "script.js", "use": "@vercel/static" },
+    { "src": "content-manager.js", "use": "@vercel/static" },
+    { "src": "analytics.js", "use": "@vercel/static" },
+    { "src": "llms.txt", "use": "@vercel/static" },
+    { "src": "robots.txt", "use": "@vercel/static" },
+    { "src": "sitemap.html", "use": "@vercel/static" },
+    { "src": "sitemap-v20260414.xml", "use": "@vercel/static" },
+    { "src": "sitemap-20260416.xml", "use": "@vercel/static" },
+    { "src": "favicon.svg", "use": "@vercel/static" },
+    { "src": "google94309f1b751bc1db.html", "use": "@vercel/static" },
+    { "src": "*.png", "use": "@vercel/static" },
+    { "src": "admin/**/*.html", "use": "@vercel/static" },
+    { "src": "admin/**/*.js", "use": "@vercel/static" },
+    { "src": "api/**/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "has": [{ "type": "header", "key": "host", "value": "www.callautomationstudio.com" }],
+      "headers": { "Location": "https://callautomationstudio.com/$1" },
+      "status": 308
+    },
+    {
+      "src": "/(.*)",
+      "has": [{ "type": "header", "key": "host", "value": "aiautomationstudio.vercel.app" }],
+      "headers": { "Location": "https://callautomationstudio.com/$1" },
+      "status": 308
+    },
+    { "src": "/sitemap.xml/?", "dest": "/sitemap-20260416.xml" },
+    { "src": "/sitemap-live.xml/?", "dest": "/sitemap-20260416.xml" },
+    { "src": "/sitemap.html/?", "dest": "/sitemap.html" },
+    { "src": "/sitemap-fresh.xml/?", "dest": "/sitemap-20260416.xml" },
+    { "src": "/sitemap_index.xml/?", "dest": "/sitemap-20260416.xml" },
+    { "src": "/sitemap-main.xml/?", "dest": "/sitemap-20260416.xml" },
+    { "src": "/api/(.*)", "dest": "/api/$1.js" },
+    { "src": "/robots.txt/?", "dest": "/robots.txt" },
+    { "src": "/ai-voice-agent-services/?", "dest": "/ai-voice-agent-services/index.html" },
+    { "src": "/ai-automation-services/?", "dest": "/ai-automation-services/index.html" },
+    { "src": "/voice-ai-customer-service/?", "dest": "/voice-ai-customer-service/index.html" },
+    { "src": "/ai-voice-agents-islamabad/?", "dest": "/ai-voice-agents-islamabad/index.html" },
+    { "src": "/ai-automation-services-pakistan/?", "dest": "/ai-automation-services-pakistan/index.html" },
+    { "src": "/ai-voice-agents-usa/?", "dest": "/ai-voice-agents-usa/index.html" },
+    { "src": "/ai-voice-agents-uk/?", "dest": "/ai-voice-agents-uk/index.html" },
+    { "src": "/ai-automation-services-australia/?", "dest": "/ai-automation-services-australia/index.html" },
+    { "src": "/ai-phone-answering-service-australia/?", "dest": "/ai-phone-answering-service-australia/index.html" },
+    { "src": "/ai-receptionist-small-business-australia/?", "dest": "/ai-receptionist-small-business-australia/index.html" },
+    {
+      "src": "/ai-dental-receptionist-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-dental-receptionist-australia/" }
+    },
+    {
+      "src": "/ai-dental-receptionist-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-dental-receptionist-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-dental-receptionist-australia/index.html"
+    },
+    {
+      "src": "/virtual-receptionist-perth/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/virtual-receptionist-perth/" }
+    },
+    {
+      "src": "/virtual-receptionist-perth/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/virtual-receptionist-perth/>; rel=\"canonical\""
+      },
+      "dest": "/virtual-receptionist-perth/index.html"
+    },
+    {
+      "src": "/business-process-automation-consulting-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/business-process-automation-consulting-australia/" }
+    },
+    {
+      "src": "/business-process-automation-consulting-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/business-process-automation-consulting-australia/>; rel=\"canonical\""
+      },
+      "dest": "/business-process-automation-consulting-australia/index.html"
+    },
+    {
+      "src": "/ai-phone-answering-for-restaurants-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-phone-answering-for-restaurants-australia/" }
+    },
+    {
+      "src": "/ai-phone-answering-for-restaurants-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-phone-answering-for-restaurants-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-phone-answering-for-restaurants-australia/index.html"
+    },
+    {
+      "src": "/ai-voice-agent-vs-ai-receptionist-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-voice-agent-vs-ai-receptionist-australia/" }
+    },
+    {
+      "src": "/ai-voice-agent-vs-ai-receptionist-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-voice-agent-vs-ai-receptionist-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-voice-agent-vs-ai-receptionist-australia/index.html"
+    },
+    {
+      "src": "/real-time-voice-ai-latency-security-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/real-time-voice-ai-latency-security-australia/" }
+    },
+    {
+      "src": "/real-time-voice-ai-latency-security-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/real-time-voice-ai-latency-security-australia/>; rel=\"canonical\""
+      },
+      "dest": "/real-time-voice-ai-latency-security-australia/index.html"
+    },
+    {
+      "src": "/ai-voice-agents-customer-support-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-voice-agents-customer-support-australia/" }
+    },
+    {
+      "src": "/ai-voice-agents-customer-support-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-voice-agents-customer-support-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-voice-agents-customer-support-australia/index.html"
+    },
+    {
+      "src": "/missed-call-automation-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/missed-call-automation-australia/" }
+    },
+    {
+      "src": "/missed-call-automation-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/missed-call-automation-australia/>; rel=\"canonical\""
+      },
+      "dest": "/missed-call-automation-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-property-management-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-property-management-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-property-management-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-receptionist-property-management-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-receptionist-property-management-australia/index.html"
+    },
+    {
+      "src": "/ai-call-recording-transcription-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-call-recording-transcription-australia/" }
+    },
+    {
+      "src": "/ai-call-recording-transcription-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-call-recording-transcription-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-call-recording-transcription-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-allied-health-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-allied-health-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-allied-health-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-receptionist-allied-health-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-receptionist-allied-health-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-ndis-providers-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-ndis-providers-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-ndis-providers-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-receptionist-ndis-providers-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-receptionist-ndis-providers-australia/index.html"
+    },
+    {
+      "src": "/ai-governance-checklist-voice-ai-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-governance-checklist-voice-ai-australia/" }
+    },
+    {
+      "src": "/ai-governance-checklist-voice-ai-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-governance-checklist-voice-ai-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-governance-checklist-voice-ai-australia/index.html"
+    },
+    {
+      "src": "/ai-voice-agents-field-service-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-voice-agents-field-service-australia/" }
+    },
+    {
+      "src": "/ai-voice-agents-field-service-australia/?",
+      "headers": { "Link": "<https://callautomationstudio.com/ai-voice-agents-field-service-australia/>; rel=\"canonical\"" },
+      "dest": "/ai-voice-agents-field-service-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-accounting-firms-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-accounting-firms-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-accounting-firms-australia/?",
+      "headers": { "Link": "<https://callautomationstudio.com/ai-receptionist-accounting-firms-australia/>; rel=\"canonical\"" },
+      "dest": "/ai-receptionist-accounting-firms-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-law-firms-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-law-firms-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-law-firms-australia/?",
+      "headers": { "Link": "<https://callautomationstudio.com/ai-receptionist-law-firms-australia/>; rel=\"canonical\"" },
+      "dest": "/ai-receptionist-law-firms-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-mortgage-brokers-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-mortgage-brokers-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-mortgage-brokers-australia/?",
+      "headers": { "Link": "<https://callautomationstudio.com/ai-receptionist-mortgage-brokers-australia/>; rel=\"canonical\"" },
+      "dest": "/ai-receptionist-mortgage-brokers-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-insurance-brokers-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-insurance-brokers-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-insurance-brokers-australia/?",
+      "headers": { "Link": "<https://callautomationstudio.com/ai-receptionist-insurance-brokers-australia/>; rel=\"canonical\"" },
+      "dest": "/ai-receptionist-insurance-brokers-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-veterinary-clinics-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-veterinary-clinics-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-veterinary-clinics-australia/?",
+      "headers": { "Link": "<https://callautomationstudio.com/ai-receptionist-veterinary-clinics-australia/>; rel=\"canonical\"" },
+      "dest": "/ai-receptionist-veterinary-clinics-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-solar-installers-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-solar-installers-australia/" }
+    },
+    {
+      "src": "/ai-receptionist-solar-installers-australia/?",
+      "headers": { "Link": "<https://callautomationstudio.com/ai-receptionist-solar-installers-australia/>; rel=\"canonical\"" },
+      "dest": "/ai-receptionist-solar-installers-australia/index.html"
+    },
+    {
+      "src": "/ai-receptionist-for-tradies-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-receptionist-for-tradies-australia/" }
+    },
+    { "src": "/ai-receptionist-for-tradies-australia/?", "dest": "/ai-receptionist-for-tradies-australia/index.html" },
+    {
+      "src": "/ai-appointment-booking-automation-australia/index\\.html/?",
+      "status": 308,
+      "headers": { "Location": "/ai-appointment-booking-automation-australia/" }
+    },
+    {
+      "src": "/ai-appointment-booking-automation-australia/?",
+      "headers": {
+        "Link": "<https://callautomationstudio.com/ai-appointment-booking-automation-australia/>; rel=\"canonical\""
+      },
+      "dest": "/ai-appointment-booking-automation-australia/index.html"
+    },
+    { "src": "/ai-voice-agents-europe/?", "dest": "/ai-voice-agents-europe/index.html" },
+    { "src": "/retell-ai-vs-vapi/?", "dest": "/retell-ai-vs-vapi/index.html" },
+    { "src": "/ai-voice-agent-cost-calculator/?", "dest": "/ai-voice-agent-cost-calculator/index.html" },
+    { "src": "/ai-receptionist-vs-human-cost-calculator/?", "dest": "/ai-receptionist-vs-human-cost-calculator/index.html" },
+    { "src": "/ai-lead-qualification-calls/?", "dest": "/ai-lead-qualification-calls/index.html" },
+    { "src": "/ai-appointment-reminder-automation/?", "dest": "/ai-appointment-reminder-automation/index.html" },
+    { "src": "/multilingual-ai-voice-agents/?", "dest": "/multilingual-ai-voice-agents/index.html" },
+    { "src": "/ai-voice-agents-for-healthcare-clinics/?", "dest": "/ai-voice-agents-for-healthcare-clinics/index.html" },
+    { "src": "/ai-voice-agents-for-real-estate-leads/?", "dest": "/ai-voice-agents-for-real-estate-leads/index.html" },
+    { "src": "/ai-appointment-booking-with-retell-vapi/?", "dest": "/ai-appointment-booking-with-retell-vapi/index.html" },
+    { "src": "/n8n-workflow-automation/?", "dest": "/n8n-workflow-automation/index.html" },
+    { "src": "/retell-openai-vapi-integration/?", "dest": "/retell-openai-vapi-integration/index.html" },
+    { "src": "/appointment-booking-automation/?", "dest": "/appointment-booking-automation/index.html" },
+    {
+      "src": "/admin/thisistheadminpannelofthiswebsite/?",
+      "dest": "/admin/thisistheadminpannelofthiswebsite/index.html"
+    },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

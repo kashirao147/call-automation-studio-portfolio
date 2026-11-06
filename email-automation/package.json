@@ -1,0 +1,16 @@
+{
+  "name": "playloop-email-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SMTP email automation for hello@playloop.co via Gmail.",
+  "main": "send-email.js",
+  "scripts": {
+    "send": "node send-email.js",
+    "send:sample": "node send-email.js --sample",
+    "send:followups": "node batch-followup.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "nodemailer": "^6.10.1"
+  }
+}

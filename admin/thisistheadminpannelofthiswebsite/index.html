@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.svg" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <title>Portfolio Admin Panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --line: rgba(164, 219, 255, 0.2);
+        --text: #f2f7ff;
+        --muted: #9bb1c8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        color: var(--text);
+        font-family: "Space Grotesk", "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at 80% 0%, rgba(0, 186, 248, 0.16), transparent 28rem),
+          linear-gradient(180deg, #05060b 0%, #070915 52%, #05060b 100%);
+      }
+
+      .admin-wrap {
+        width: min(1320px, 100%);
+        margin: 0 auto;
+        padding: 24px 16px 36px;
+      }
+
+      .admin-head {
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 18px 16px;
+        background: rgba(10, 20, 34, 0.9);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.4rem, 2.8vw, 2rem);
+      }
+
+      .admin-head p {
+        margin: 10px 0 0;
+        color: var(--muted);
+      }
+
+      .admin-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .admin-actions button,
+      .admin-actions input,
+      .admin-actions a {
+        min-height: 38px;
+        padding: 0 12px;
+        border-radius: 9px;
+        border: 1px solid var(--line);
+        background: rgba(14, 28, 44, 0.9);
+        color: #e9f6ff;
+        font: inherit;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .admin-actions input {
+        min-width: 210px;
+        justify-content: flex-start;
+        cursor: text;
+        outline: none;
+      }
+
+      .admin-actions .primary {
+        background: linear-gradient(135deg, #2ad3ff 0%, #1499dc 100%);
+        border-color: rgba(101, 211, 255, 0.35);
+        color: #001a2a;
+        font-weight: 700;
+      }
+
+      .status {
+        margin-top: 10px;
+        min-height: 20px;
+        color: #8ed7ff;
+      }
+
+      .status.error {
+        color: #ff8f8f;
+      }
+
+      .status.success {
+        color: #7df0b8;
+      }
+
+      .admin-main {
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: 12px;
+      }
+
+      .panel {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(8, 16, 28, 0.9);
+      }
+
+      .sidebar {
+        padding: 10px;
+        max-height: calc(100vh - 170px);
+        overflow: auto;
+      }
+
+      .section-btn {
+        width: 100%;
+        border: 1px solid rgba(166, 219, 255, 0.14);
+        border-radius: 10px;
+        background: rgba(6, 13, 22, 0.92);
+        color: #dff1ff;
+        text-align: left;
+        padding: 10px;
+        font: inherit;
+        cursor: pointer;
+        margin-bottom: 8px;
+      }
+
+      .section-btn small {
+        display: block;
+        margin-top: 4px;
+        color: #87a9c8;
+        font-size: 0.78rem;
+      }
+
+      .section-btn.active {
+        border-color: rgba(96, 210, 255, 0.5);
+        background: rgba(12, 31, 49, 0.92);
+        box-shadow: inset 0 0 18px rgba(30, 184, 255, 0.14);
+      }
+
+      .editor-pane {
+        padding: 12px;
+      }
+
+      .pane-head {
+        padding: 10px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .pane-head h2 {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      .pane-head p {
+        margin: 6px 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .pane-content {
+        padding: 12px 10px 2px;
+        display: grid;
+        gap: 10px;
+      }
+
+      .field {
+        border: 1px solid rgba(166, 219, 255, 0.14);
+        border-radius: 12px;
+        padding: 10px;
+        background: rgba(5, 12, 21, 0.82);
+      }
+
+      .field label {
+        display: block;
+        font-size: 0.86rem;
+        color: #8fb8d7;
+        margin-bottom: 6px;
+      }
+
+      .field textarea {
+        width: 100%;
+        min-height: 74px;
+        border-radius: 8px;
+        border: 1px solid rgba(161, 216, 255, 0.18);
+        background: rgba(2, 8, 16, 0.9);
+        color: #e8f5ff;
+        padding: 8px 10px;
+        font: inherit;
+        resize: vertical;
+      }
+
+      .repeater-tools {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+
+      .repeater-tools button {
+        min-height: 34px;
+        padding: 0 12px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: rgba(16, 34, 52, 0.9);
+        color: #dff2ff;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .upload-input {
+        min-height: 34px;
+        padding: 6px 8px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: rgba(10, 18, 30, 0.95);
+        color: #dff2ff;
+        font: inherit;
+      }
+
+      .repeater-item-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+
+      .repeater-item-top p {
+        margin: 0;
+        color: #9bc1df;
+      }
+
+      .remove-item {
+        min-height: 30px;
+        padding: 0 10px;
+        border-radius: 7px;
+        border: 1px solid rgba(255, 170, 170, 0.32);
+        background: rgba(68, 22, 26, 0.7);
+        color: #ffc7c7;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      @media (max-width: 980px) {
+        .admin-main {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar {
+          max-height: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="admin-wrap">
+      <div class="admin-head">
+        <h1>Website Admin Panel</h1>
+        <p>
+          Left side se section select karein, right side me usi section ki fields
+          edit karein. Save changes and refresh website tab.
+        </p>
+        <div class="admin-actions">
+          <input
+            type="password"
+            data-admin-key
+            placeholder="Admin API Key"
+            aria-label="Admin API Key"
+          />
+          <button class="primary" data-save>Save Changes</button>
+          <button data-reset>Reset Default</button>
+          <button data-export>Export JSON</button>
+          <a href="/" target="_blank" rel="noreferrer">Open Website</a>
+        </div>
+        <p class="status" data-status></p>
+      </div>
+
+      <div class="admin-main">
+        <aside class="panel sidebar" data-sections></aside>
+        <section class="panel editor-pane">
+          <div class="pane-head">
+            <h2 data-pane-title>Section</h2>
+            <p data-pane-subtitle>Fields</p>
+          </div>
+          <div class="pane-content" data-fields></div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/content-manager.js"></script>
+    <script src="/admin/admin.js"></script>
+  </body>
+</html>

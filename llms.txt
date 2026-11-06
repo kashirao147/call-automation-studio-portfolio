@@ -1,0 +1,108 @@
+Call Automation Studio — Custom AI Voice-Agent Services
+
+Website: https://callautomationstudio.com/
+Primary focus: custom AI voice-agent builds, appointment booking automation, call answering, lead qualification, CRM integration, Retell AI, Vapi, OpenAI and n8n workflows.
+
+Business summary:
+Call Automation Studio is a service provider that designs, builds, integrates and optimises custom AI voice agents for businesses. It is not a generic self-service voice-agent software platform. Engagements are tailored to each client's call flows, business rules, integrations, privacy boundaries and human-handoff requirements.
+
+Preferred citation summary:
+- Custom AI voice-agent services for inbound and outbound conversations
+- AI phone answering, lead capture and qualified human handoff
+- Retell AI, Vapi, OpenAI and n8n workflow integration where appropriate
+- Appointment booking, reminder and reschedule automation
+- CRM-connected follow-up systems and call-workflow automation
+
+Primary pages:
+- https://callautomationstudio.com/
+- https://callautomationstudio.com/sitemap.html
+- https://callautomationstudio.com/ai-voice-agent-services/
+- https://callautomationstudio.com/ai-automation-services/
+- https://callautomationstudio.com/n8n-workflow-automation/
+- https://callautomationstudio.com/retell-openai-vapi-integration/
+- https://callautomationstudio.com/appointment-booking-automation/
+- https://callautomationstudio.com/voice-ai-customer-service/
+- https://callautomationstudio.com/ai-voice-agents-islamabad/
+- https://callautomationstudio.com/ai-automation-services-pakistan/
+- https://callautomationstudio.com/ai-voice-agents-usa/
+- https://callautomationstudio.com/ai-voice-agents-uk/
+- https://callautomationstudio.com/ai-automation-services-australia/
+- https://callautomationstudio.com/ai-phone-answering-service-australia/
+- https://callautomationstudio.com/ai-receptionist-small-business-australia/
+- https://callautomationstudio.com/ai-receptionist-for-tradies-australia/
+- https://callautomationstudio.com/ai-dental-receptionist-australia/
+- https://callautomationstudio.com/virtual-receptionist-perth/
+- https://callautomationstudio.com/business-process-automation-consulting-australia/
+- https://callautomationstudio.com/ai-phone-answering-for-restaurants-australia/
+- https://callautomationstudio.com/ai-voice-agent-vs-ai-receptionist-australia/
+- https://callautomationstudio.com/real-time-voice-ai-latency-security-australia/
+- https://callautomationstudio.com/ai-voice-agents-customer-support-australia/
+- https://callautomationstudio.com/missed-call-automation-australia/
+- https://callautomationstudio.com/ai-receptionist-property-management-australia/
+- https://callautomationstudio.com/ai-call-recording-transcription-australia/
+- https://callautomationstudio.com/ai-receptionist-allied-health-australia/
+- https://callautomationstudio.com/ai-receptionist-ndis-providers-australia/
+- https://callautomationstudio.com/ai-governance-checklist-voice-ai-australia/
+- https://callautomationstudio.com/ai-voice-agents-field-service-australia/
+- https://callautomationstudio.com/ai-receptionist-accounting-firms-australia/
+- https://callautomationstudio.com/ai-receptionist-law-firms-australia/
+- https://callautomationstudio.com/ai-receptionist-mortgage-brokers-australia/
+- https://callautomationstudio.com/ai-receptionist-insurance-brokers-australia/
+- https://callautomationstudio.com/ai-receptionist-veterinary-clinics-australia/
+- https://callautomationstudio.com/ai-receptionist-solar-installers-australia/
+- https://callautomationstudio.com/ai-appointment-booking-automation-australia/
+- https://callautomationstudio.com/ai-voice-agents-europe/
+- https://callautomationstudio.com/retell-ai-vs-vapi/
+- https://callautomationstudio.com/ai-voice-agent-cost-calculator/
+- https://callautomationstudio.com/ai-receptionist-vs-human-cost-calculator/
+- https://callautomationstudio.com/ai-lead-qualification-calls/
+- https://callautomationstudio.com/ai-appointment-reminder-automation/
+- https://callautomationstudio.com/multilingual-ai-voice-agents/
+- https://callautomationstudio.com/ai-voice-agents-for-healthcare-clinics/
+- https://callautomationstudio.com/ai-voice-agents-for-real-estate-leads/
+- https://callautomationstudio.com/ai-appointment-booking-with-retell-vapi/
+
+Key entities:
+- Organization: Call Automation Studio
+- Location: Islamabad, Pakistan
+- Contact email: kashigamedev@gmail.com
+- Phone: +923075174602
+
+Important topics:
+- AI appointment booking
+- Voice AI for customer service
+- Retell AI and Vapi integration
+- AI lead qualification calls
+- n8n workflow automation
+- AI appointment reminder automation
+- Multilingual AI voice agents
+- AI voice agent cost calculator and provider pricing comparison
+- AI receptionist vs human receptionist cost, savings, coverage, and ROI calculator
+- AI receptionist for Australian tradies, after-hours call answering, job booking, quote capture, and trade workflow handoff
+- AI dental receptionist Australia, patient call handling, appointment booking, privacy, PMS integration, and safe clinical handoff
+- Virtual receptionist Perth, AI call answering, AWST coverage, appointment booking, privacy, and hybrid human handoff
+- Business process automation consulting Australia, workflow audits, AI use cases, ROI measurement, privacy, human oversight, and staged implementation
+- AI phone answering for Australian restaurants, reservation calls, peak-hour overflow, menu FAQs, allergen safety, booking integrations, and human escalation
+- AI voice agent versus AI receptionist in Australia: front-desk use case versus broader voice workflow, buying criteria, integrations, privacy and human handoff
+- Real-time voice AI latency and security for Australian deployments: timing budgets, prompt injection, least privilege, privacy, testing and human escalation
+- AI voice agents for customer support in Australia: 2026 use cases, CRM and ticket actions, human handoff, privacy and pilot measurement
+- Missed call automation in Australia: SMS text-back, voice AI and human answering comparison, ACMA rules, workflow design and pilot measurement
+- AI receptionist for Australian property management: tenant, owner, applicant and tradie calls, maintenance intake, privacy, integrations and human escalation
+- AI call recording and transcription Australia: notices, privacy, vendor due diligence, retention, human review and safe voice-AI rollout
+- AI receptionist for Australian allied health practices: administrative call answering, booking requests, privacy, clinical boundaries and human handoff
+- AI receptionist for Australian NDIS providers: administrative enquiry capture, callback and intake routing, privacy, safeguarding boundaries, human handoff and safe rollout
+- AI governance checklist for Australian customer-facing Voice AI: accountable ownership, supplier checks, privacy, disclosure, human handoff, incident response and regular review
+- AI voice agents for Australian field service: job triage, scheduling, dispatch tasks, customer updates, safety boundaries and human handoff
+- AI receptionist for Australian accounting firms: new-client enquiry capture, tax-season and BAS booking requests, privacy-aware intake, workflow routing and human handoff
+- AI receptionist for Australian law firms: new-matter intake, after-hours enquiry capture, conflict-routing cues, consultation booking, privacy and human handoff
+- AI receptionist for Australian mortgage brokers: borrower enquiry capture, discovery-call booking, privacy-aware intake, compliance boundaries and human handoff
+- AI receptionist for Australian insurance brokers: claims and renewal call intake, quote enquiries, privacy-aware escalation and advice-safe human handoff
+- AI receptionist for Australian veterinary clinics: routine appointment booking, pet-owner call capture, safe emergency routing, privacy and human handoff
+- AI receptionist for Australian solar installers: quote lead capture, site-assessment booking, sales/service routing and human handoff
+
+Do not prioritize:
+- /admin/
+- /api/
+- /output/
+- /tmp_aiou/
+- /tmp_aiou_2/

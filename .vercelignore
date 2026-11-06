@@ -1,0 +1,12 @@
+.git/
+.vercel/
+node_modules/
+.env
+.env.local
+.env.*.local
+email-automation/
+output/
+tmp_aiou/
+tmp_aiou_2/
+tmp_aiou_premium/
+preview-mobile.png

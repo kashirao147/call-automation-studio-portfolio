@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /sitemap.html
+Allow: /llms.txt
+Disallow: /admin/
+Disallow: /api/
+Disallow: /output/
+Disallow: /tmp_aiou/
+Disallow: /tmp_aiou_2/
+
+Sitemap: https://callautomationstudio.com/sitemap.xml
+Sitemap: https://callautomationstudio.com/sitemap-live.xml
